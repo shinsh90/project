@@ -1,2 +1,127 @@
 @charset "utf-8";
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: "Noto Sans", "Noto Sans KR", sans-serif;
+  color: black;
+  list-style: none;
+  text-decoration: none;
+}
+#wrap {
+  width: 1650px;
+}
+#logo_box {
+  float: left;
+  width: 200px;
+  height: 100px;
+}
+#logo_box a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+#logo_box a img {
+  position: absolute;
+  left: 45px;
+  top: 25px;
+  width: 100px;
+  height: 50px;
+}
+nav {
+  text-align: center;
+  float: left;
+  width: 600px;
+  height: 100px;
+  position: absolute;
+  left: 350px;
+}
+
+nav .menu li {
+  line-height: 100px;
+  float: left;
+  width: 25%;
+  height: 100px;
+}
+nav .menu li a {
+  font-size: 24px;
+  display: block;
+}
+html,
+body {
+  height: 100%;
+}
+#search {
+  position: absolute;
+  top: 35px;
+  right: 550px;
+  float: left;
+  width: 300px;
+}
+.st0 {
+  fill: #333333;
+}
+.st1 {
+  fill: none;
+  stroke: #040000;
+  stroke-width: 0.7087;
+  stroke-miterlimit: 10;
+}
